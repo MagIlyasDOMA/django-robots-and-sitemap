@@ -3,7 +3,7 @@ from pip_setuptools import setup, clean, readme, requirements
 clean()
 setup(
     name='django-robots-and-sitemap',
-    version='1.0.1',
+    version='1.0.2',
     install_requires=requirements(),
     packages=['robots_and_sitemap'],
     description='A Django plugin that adds support for sitemap.xml and robots.txt',
